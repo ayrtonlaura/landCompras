@@ -113,7 +113,9 @@ gulp.task('plugins', function() {
             './source/javascript/plugins/fix_liferay.js',//Vemos nuestra versión en el CMS
             './source/javascript/plugins/hammer.js',//Eventos Touch
             './source/javascript/plugins/bootstrap-select.min.js',
-            './source/javascript/plugins/owl.carousel.min.js'
+            './source/javascript/plugins/owl.carousel.min.js',
+            './source/javascript/plugins/slick.js',
+            './source/javascript/plugins/slick.min.js'            
           ]
         )
         .pipe(concat('vendor_all.js') )
