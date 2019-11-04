@@ -212,30 +212,76 @@
     font-size: 14px;
 }
 
+
 .banner-menu{
     background-image: url('http://chromium.themes.zone/local/wp-content/uploads/sites/4/2018/06/slide_3_opt.jpg');
     background-size: 100% 100%;
-    height: 500px;
+    height: 500px !important;
+}
+.banner-menu2{
+    background-image: url('http://chromium.themes.zone/local/wp-content/uploads/sites/4/2018/06/slide_1_opt.jpg');
+    background-size: 100% 100%;
+    height: 500px !important;
+
+}
+.banner-menu3{
+    background-image: url('http://chromium.themes.zone/local/wp-content/uploads/sites/4/2018/07/slide_2_opt.jpg');
+    background-size: 100% 100%;
+    height: 500px !important;
+
 }
 
 
+/**
+--- Carrusel
+**/
 .contenedor-slick{
     max-width: 1200px;
     width: 90%;
     margin: auto;
+    background: #d3d3d3;
 }
 
 .slide{
     width: 100%;
-    height: 500px;
+    height: 500px !important;
 }
 
 .slide1{
-    background: #111;
+    background: #f65f5f;
 }
 .slide2{
     background: #318a7e;
 }
 .slide3{
     background: #b82c2c;
+}
+
+.slide .content h3{
+    color: #fff;
+    text-align: center;
+    margin: 0;
+}
+
+.slick-dots li button:before{
+    font-size: 35px !important;
+    color: #fff !important;
+}
+.slick-dots{
+    bottom: 20px !important;
+}
+
+#lienzoB_millon section{
+    padding: 0 !important;
+}
+
+.seccionesText{
+    display: grid;
+    grid-template-columns: 700px 450px;
+    justify-content: center;
+    height: 100%;
+    
+}
+.titulos-carrusel h2{
+    color: #fff; 
 }

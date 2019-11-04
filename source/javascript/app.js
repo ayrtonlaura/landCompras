@@ -23,6 +23,18 @@
 //     btnBurguerV.click();
 //   });
 // }
+// $(".slideshow").slick({
+//     // dots: true
+//     dots: true,
+//     speed: 500,
+//     cssEase: 'linear'
+// });
 
-$(".slideshow").slick();
+$(".banner-principal").slick({
+    dots: true,
+    speed: 500,
+    cssEase: 'linear' 
+})
+
+
 
