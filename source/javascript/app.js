@@ -38,3 +38,23 @@ $(".banner-principal").slick({
 
 
 
+const botonAceptar = document.getElementById('botonAceptar')
+
+let datos = {
+    usuario: "admin",
+    contra: "123456"
+}
+
+botonAceptar.addEventListener('click',() =>{
+    const usuario = document.getElementById('usuario').value 
+
+    if(usuario === datos.usuario){
+        console.log('Bienvenido '+ usuario);
+    }else{
+        console.log('USUARIO No existe');
+        
+    }
+})
+
+
+

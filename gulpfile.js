@@ -115,6 +115,8 @@ gulp.task('plugins', function() {
             './source/javascript/plugins/bootstrap-select.min.js',
             './source/javascript/plugins/owl.carousel.min.js',
             './source/javascript/plugins/slick.js',
+            './source/javascript/plugins/jquery.1.10.1.min.js',
+            './source/javascript/plugins/jquery-3.4.1.min.js',
             './source/javascript/plugins/slick.min.js'            
           ]
         )

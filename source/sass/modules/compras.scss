@@ -285,3 +285,43 @@
 .titulos-carrusel h2{
     color: #fff; 
 }
+
+.slick-next {
+    right: 25px !important;
+}
+
+// .slick-prev:before { 
+//     content: "→";
+// }
+
+.slick-prev {
+    left: 25px !important;
+    z-index: 100 !important;
+}
+
+.contenedidos-elementos{
+    width: 1200px;
+    margin: auto;
+}
+
+.banner-01 img{
+    width: 350px;
+    height: 250px;
+    transform: translate3d(-18px,0,0) scale(1.1);
+    transition: opacity .35s,transform .35s;
+    overflow: hidden;
+}
+
+.banner-01:hover img {
+    -webkit-transform:scale(0.9);
+    -moz-transform:scale(0.9);
+    -ms-transform:scale(0.9);
+    -o-transform:scale(0.9);
+    transform:scale(0.9);
+}
+
+.elementos-banners{
+    display: flex;
+    justify-content: space-between;
+}
+
